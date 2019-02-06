@@ -1,0 +1,52 @@
+{
+  "links": [
+    {
+      "id": "H1sqFNBN4",
+      "input": {
+        "nodeId": "SkF5tVH4N",
+        "pinKey": "SJ9GSESNN"
+      },
+      "output": {
+        "nodeId": "SyKKsmBVE",
+        "pinKey": "Byp8o7SVN"
+      }
+    },
+    {
+      "id": "S1C5t4SV4",
+      "input": {
+        "nodeId": "HJQY1VB4E",
+        "pinKey": "Bks_hmrEE"
+      },
+      "output": {
+        "nodeId": "SkF5tVH4N",
+        "pinKey": "S1g5frNH4E"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "HJQY1VB4E",
+      "position": {
+        "x": -102,
+        "y": 0
+      },
+      "type": "@/position-mouse"
+    },
+    {
+      "id": "SkF5tVH4N",
+      "position": {
+        "x": -102,
+        "y": -102
+      },
+      "type": "@/scaling-mouse"
+    },
+    {
+      "id": "SyKKsmBVE",
+      "position": {
+        "x": -102,
+        "y": -204
+      },
+      "type": "@/mouse-dev"
+    }
+  ]
+}
