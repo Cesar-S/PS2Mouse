@@ -1,10 +1,10 @@
 #include "PS2Mouse.h"
 
 PS2Mouse::PS2Mouse(int clk, int data){
-  _ps2clk=clk;
   _ps2data=data;
-  gohi(_ps2clk);
-  gohi(_ps2data);  
+  _ps2clk=clk;
+  gohi(_ps2data);
+  gohi(_ps2clk);  
 }
 
 void PS2Mouse::write(uint8_t data){
